@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1)), url("assets/FUNDO.jpg");
+    background-repeat: no-repeat;
+    background-color: brown;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+header {
+    margin: 0 auto;
+}
+
+.container_header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2ch;
+
+}
+
+.logo {
+    background: brown;
+    padding: 10px;
+    border: solid 3px;
+    border-radius: 50px;
+    color: black;
+}
+
+.titulo h1{
+    color: red;
+    text-shadow: -1px -1px 0 black,  
+    1px -1px 0 black,  
+    -1px 1px 0 black,  
+    1px 1px 0 black;
+    text-align: center;
+}
+
+nav li{
+    margin: 5px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav a{
+    color: #841617;
+    padding: 1px;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 black,  
+                 1px -1px 0 black,  
+                 -1px 1px 0 black,  
+                 1px 1px 0 black;
+}
+
+nav i{
+    margin: 0 10px 0 0;
+}
+nav a:hover{
+    color: red;
+    font-size: medium;
+}
+
+nav a:visited{
+    color: none;
+}
+
+section{
+    justify-items: center;
+}
+
+.Container_Inicio{
+    text-align: center;
+    align-items: center;
+    flex: 1;
+    margin: 10px;
+    border: solid 1ch black;
+    border-radius: 50px;
+    padding: 20px;
+    width: 50%;
+    color: white ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.Container_Inicio img{
+    width: 30ch;
+    height: 30ch;
+    border: solid 2px;
+    border-radius: 50%;
+}
+
+.Container_Conteudo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    text-shadow: -1px -1px 0 black,  
+    1px -1px 0 black,  
+    -1px 1px 0 black,  
+    1px 1px 0 black;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.Reparticao{
+    flex: 1;
+    margin: 10px;
+    border: solid 1ch black;
+    border-radius: 50px;
+    padding: 20px;
+    color: white ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 250px;
+    height: 500px;
+}
+
+.Reparticao img{
+    width: 30ch;
+    height: 30ch;
+    border: solid 2px;
+    border-radius: 50px 50px 0 0;
+}
+
+#SoloLeveling{
+    background: linear-gradient(indigo, purple, #445EF2, black);
+    border-color: indigo;
+}
+
+#KimetsuNoYaiba{
+    background: linear-gradient( green,black);
+    border-color: darkgreen;
+}
+
+#SakamotoDays{
+    background: linear-gradient( darkred, black);
+    border-color: orange;
+}
+
+#HunterxHunter{
+    background: linear-gradient( white, #006F44, #FDAB4D, DarkRed);
+    border-color: #B8244B;
+}
+
+#BlackClover{
+    background: linear-gradient(black, #97723E, #EFD3AC, #97723E, black);
+    border-color: black;
+}
+
+#Kaiju8{
+    background: linear-gradient(#181818, #00FF99, #181818);
+    border-color: black;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
